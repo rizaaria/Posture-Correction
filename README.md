@@ -27,8 +27,6 @@ The device also supports **Bluetooth Low Energy (BLE)** communication to connect
 | Li-ion Battery | Power source |
 | TP4056 | Battery charging module |
 | MT3608 | Step-up converter module |
-| Switch | Power ON/OFF control |
-| Jumper Cable | Component connection |
 
 ## Software and Tools
 
@@ -45,7 +43,7 @@ The device also supports **Bluetooth Low Energy (BLE)** communication to connect
 | Component | ESP32-C3 Pin |
 |---|---|
 | Flex Sensor | GPIO 2 |
-| Vibration Motor | GPIO 3 |
+| Vibration Motor through mosfet driver | GPIO 3 |
 | RGB LED - Red | GPIO 4 |
 | RGB LED - Green | GPIO 7 |
 | RGB LED - Blue | GPIO 10 |
